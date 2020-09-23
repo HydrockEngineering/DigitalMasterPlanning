@@ -109,7 +109,7 @@ a {
   color: $header-heading-color;
   text-align: center;
   /*background-color: $header-bg-color;*/
-  background-image: url("assets/images/banner.jpg");
+  background-image: url("assets/images/banner.png");
   /*background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);*/
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 400px; /* You must set a specified height */
@@ -119,7 +119,7 @@ a {
   
   img {
     width:100%;
-      background-image: url("assets/images/banner.jpg");
+      background-image: url("assets/images/banner.png");
   /*background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);*/
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 400px; /* You must set a specified height */
