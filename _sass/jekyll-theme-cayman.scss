@@ -115,6 +115,7 @@ a {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  position:relative;
   
   img {
     width:100%;
@@ -134,13 +135,14 @@ a {
 }
 
 .banner-text {
-    background-color: $header-bg-color;
-    opacity: 0.5;
+    background-color:#19272d;
+    opacity: 0.6;
     width: 850px;
+    height:200px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -320px;
+    margin-top: -100px;
     margin-right: 0;
     margin-bottom: 0;
     margin-left: -425px;
