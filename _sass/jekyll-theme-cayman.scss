@@ -110,7 +110,6 @@ a {
   text-align: center;
   /*background-color: $header-bg-color;*/
   background-image: url("https://hydrockengineering.github.io/DigitalMasterPlanning/assets/images/banner.png");
-  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 400px; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -413,7 +412,7 @@ a {
 
 .position-left {
   float:left;
-  width:25%;
+  width:50%;
   margin-right:3%;
 
   @include small {
@@ -431,7 +430,7 @@ a {
 
 .position-right {
   float:left;
-  width:72%;
+  width:50%;
 
   @include small {
     float:none;
