@@ -133,6 +133,19 @@ a {
   }*/
 }
 
+.banner-text {
+    background-color: $header-bg-color;
+    opacity: 0.5;
+    width: 850px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -320px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: -425px;
+}
+
 .project-name {
   line-height:400px;
   margin-top: 0;
