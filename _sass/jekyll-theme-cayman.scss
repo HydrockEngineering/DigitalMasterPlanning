@@ -146,6 +146,17 @@ a {
     margin-right: 0;
     margin-bottom: 0;
     margin-left: -450px;
+    text-align:center;
+  
+  @include medium {
+  width:700px;
+  margin-left: -350px;
+  }
+  
+  @include small {
+  width:300px;
+  margin-left: -150px;
+  }
 }
 
 .project-name {
