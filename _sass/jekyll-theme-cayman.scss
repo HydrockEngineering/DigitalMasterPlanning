@@ -222,6 +222,10 @@ a {
     font-weight: normal;
     color: $section-headings-color;
   }
+  
+  h2.subhead {
+    margin-bottom: 2rem;
+  }
 
   p {
     margin-bottom: 1em;
@@ -431,8 +435,6 @@ a {
   color: $body-text-color;
   text-align:left;
   
- h2 {margin-bottom: 2rem;}
-
   @include small {
     float:none;
     width:100%;margin-bottom:30px;
