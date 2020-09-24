@@ -415,6 +415,7 @@ a {
   float:left;
   width:48%;
   margin-right:2%;
+  color: $body-text-color;
 
   @include small {
     float:none;
