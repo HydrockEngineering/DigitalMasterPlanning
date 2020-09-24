@@ -420,6 +420,10 @@ a {
   border-bottom: solid 1px $hr-border-color;
 }
 
+.sub-wrap:last-of-type {
+  border-bottom:none;
+}
+
 .position-left {
   float:left;
   width:48%;
