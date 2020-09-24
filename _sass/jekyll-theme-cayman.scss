@@ -430,6 +430,8 @@ a {
   margin-right:2%;
   color: $body-text-color;
   text-align:left;
+  
+ h2 {margin-bottom: 2rem;}
 
   @include small {
     float:none;
@@ -450,8 +452,8 @@ a {
 
 .icon {
   img {
-    width:62px;
-    height:62px;
+    width:80px;
+    height:80px;
   }
 }
 
